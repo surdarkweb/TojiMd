@@ -37,3 +37,4 @@
  <br> 
 <p align="center">
 <a href="https://wa.me/2349134457509"><img src="https://img.shields.io/badge/Contact KING JOHAN-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://whatsapp.com/channel/0029Vail87sIyPtQoZ2egl1h"><img src="https://img.shields.io/badge/Join Official Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
