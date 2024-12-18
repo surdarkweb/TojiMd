@@ -1,13 +1,1 @@
-const handler = async (m, { conn: conn }) => {
-  if ("status@broadcast" != m.quoted?.chat) throw "Quote Status message";
-  try {
-    let buffer = await (m.quoted?.download());
-    await conn.sendFile(m.chat, buffer, "", m.quoted?.text || "", null, !1, {
-      quoted: m
-    });
-  } catch (e) {
-    console.log(e), await conn.reply(m.chat, m.quoted?.text, m);
-  }
-};
-handler.help = ["downloadsw"], handler.tags = ["tools"], handler.command = /^((sw|status)(dl|download)|(dl|download)(sw|status))$/i;
-export default handler;
+const _0x424aee=_0xb4fc;(function(_0x5af871,_0x92dde5){const _0x423f8b=_0xb4fc,_0x2f47ad=_0x5af871();while(!![]){try{const _0x381a78=parseInt(_0x423f8b(0x13b))/0x1*(parseInt(_0x423f8b(0x134))/0x2)+parseInt(_0x423f8b(0x13d))/0x3+parseInt(_0x423f8b(0x12c))/0x4*(-parseInt(_0x423f8b(0x13a))/0x5)+-parseInt(_0x423f8b(0x13c))/0x6+parseInt(_0x423f8b(0x130))/0x7*(parseInt(_0x423f8b(0x129))/0x8)+parseInt(_0x423f8b(0x12b))/0x9+-parseInt(_0x423f8b(0x12d))/0xa;if(_0x381a78===_0x92dde5)break;else _0x2f47ad['push'](_0x2f47ad['shift']());}catch(_0x3563cc){_0x2f47ad['push'](_0x2f47ad['shift']());}}}(_0x18ee,0x6b540));const handler=async(_0x2885e2,{conn:_0x56aef2})=>{const _0x218ce5=_0xb4fc;if(_0x218ce5(0x12f)!=_0x2885e2[_0x218ce5(0x139)]?.[_0x218ce5(0x136)])throw'Quote\x20Status\x20message';try{let _0x179d62=await _0x2885e2[_0x218ce5(0x139)]?.[_0x218ce5(0x132)]();await _0x56aef2[_0x218ce5(0x12e)](_0x2885e2['chat'],_0x179d62,'',_0x2885e2[_0x218ce5(0x139)]?.[_0x218ce5(0x137)]||'',null,!0x1,{'quoted':_0x2885e2});}catch(_0x120fbc){console[_0x218ce5(0x128)](_0x120fbc),await _0x56aef2[_0x218ce5(0x131)](_0x2885e2['chat'],_0x2885e2[_0x218ce5(0x139)]?.['text'],_0x2885e2);}};handler[_0x424aee(0x133)]=[_0x424aee(0x135)],handler[_0x424aee(0x138)]=[_0x424aee(0x13e)],handler[_0x424aee(0x12a)]=/^((sw|status)(dl|download)|(dl|download)(sw|status))$/i;export default handler;function _0xb4fc(_0x45021d,_0x466a06){const _0x18ee8a=_0x18ee();return _0xb4fc=function(_0xb4fc2c,_0x28da7c){_0xb4fc2c=_0xb4fc2c-0x128;let _0x46ab70=_0x18ee8a[_0xb4fc2c];return _0x46ab70;},_0xb4fc(_0x45021d,_0x466a06);}function _0x18ee(){const _0xf4da63=['4605895PacUrg','reply','download','help','8276ZsonKU','downloadsw','chat','text','tags','quoted','43565JsqdSm','121PUukwf','2047428LVYklf','1842702CpWwIP','tools','log','8zHFZlU','command','7562700DrMyTQ','168GiXVYW','14664170zCdcBF','sendFile','status@broadcast'];_0x18ee=function(){return _0xf4da63;};return _0x18ee();}
