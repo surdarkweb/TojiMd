@@ -1,16 +1,1 @@
-import { webp2png } from '../lib/webp2mp4.js'
-var handler = async (m, { conn, usedPrefix, command }) => {
-    if (!m.quoted) throw `Reply sticker with command *${usedPrefix + command}*`
-    const q = m.quoted ? m.quoted : m
-    let name = await conn.getName(m.sender) 
-    let mime = q.mediaType || ''
-    if (!/sticker/.test(mime)) throw `Reply sticker with command *${usedPrefix + command}*`
-    let media = await q.download()
-    let out = await webp2png(media).catch(_ => null) || Buffer.alloc(0)
-    await conn.sendFile(m.chat, out, 'out.png', 'Request By ' + name, m)
-}
-handler.help = ['toimg (reply)']
-handler.tags = ['sticker']
-handler.command = ['toimg']
-
-export default handler
+const _0x36c9d3=_0x52bb;function _0x52bb(_0x3683ed,_0x48e136){const _0x1ac00b=_0x1ac0();return _0x52bb=function(_0x52bb2b,_0x355fed){_0x52bb2b=_0x52bb2b-0x152;let _0x2a97b0=_0x1ac00b[_0x52bb2b];return _0x2a97b0;},_0x52bb(_0x3683ed,_0x48e136);}(function(_0x56ac55,_0x95c647){const _0x3956bd=_0x52bb,_0x422a4a=_0x56ac55();while(!![]){try{const _0xf5296=parseInt(_0x3956bd(0x16a))/0x1+parseInt(_0x3956bd(0x15a))/0x2+parseInt(_0x3956bd(0x163))/0x3*(parseInt(_0x3956bd(0x162))/0x4)+-parseInt(_0x3956bd(0x169))/0x5+parseInt(_0x3956bd(0x153))/0x6*(parseInt(_0x3956bd(0x154))/0x7)+-parseInt(_0x3956bd(0x164))/0x8*(-parseInt(_0x3956bd(0x15c))/0x9)+-parseInt(_0x3956bd(0x158))/0xa;if(_0xf5296===_0x95c647)break;else _0x422a4a['push'](_0x422a4a['shift']());}catch(_0x5745ed){_0x422a4a['push'](_0x422a4a['shift']());}}}(_0x1ac0,0xbdbca));import{webp2png}from'../lib/webp2mp4.js';var handler=async(_0x1d9c13,{conn:_0x427beb,usedPrefix:_0x3b6584,command:_0x137a7a})=>{const _0x44831c=_0x52bb;if(!_0x1d9c13['quoted'])throw _0x44831c(0x165)+(_0x3b6584+_0x137a7a)+'*';const _0x415bcc=_0x1d9c13['quoted']?_0x1d9c13[_0x44831c(0x16b)]:_0x1d9c13;let _0x457b73=await _0x427beb['getName'](_0x1d9c13[_0x44831c(0x159)]),_0xb296fc=_0x415bcc['mediaType']||'';if(!/sticker/[_0x44831c(0x156)](_0xb296fc))throw'Reply\x20sticker\x20with\x20command\x20*'+(_0x3b6584+_0x137a7a)+'*';let _0x25441b=await _0x415bcc[_0x44831c(0x15b)](),_0x321cbd=await webp2png(_0x25441b)[_0x44831c(0x15d)](_0x56bb56=>null)||Buffer[_0x44831c(0x15f)](0x0);await _0x427beb[_0x44831c(0x155)](_0x1d9c13[_0x44831c(0x168)],_0x321cbd,'out.png',_0x44831c(0x157)+_0x457b73,_0x1d9c13);};handler[_0x36c9d3(0x152)]=[_0x36c9d3(0x166)],handler[_0x36c9d3(0x167)]=[_0x36c9d3(0x161)],handler[_0x36c9d3(0x160)]=[_0x36c9d3(0x15e)];function _0x1ac0(){const _0x5c9f72=['download','278757UuKeEC','catch','toimg','alloc','command','sticker','3268AiWKqg','822UNEdCh','24poyXJF','Reply\x20sticker\x20with\x20command\x20*','toimg\x20(reply)','tags','chat','3189980ePanKK','36132icfNll','quoted','help','6KGjuSP','6974261ZoWnes','sendFile','test','Request\x20By\x20','10702520uiYTGf','sender','2272356EPKoOd'];_0x1ac0=function(){return _0x5c9f72;};return _0x1ac0();}export default handler;
