@@ -1,12 +1,1 @@
-//import db from '../lib/database.js'
-
-let handler = async (m, { conn, isOwner, isAdmin, isROwner }) => {
-  if (!(isAdmin || isOwner)) return dfail('admin', m, conn)
-  global.db.data.chats[m.chat].isBanned = true
-  m.reply('✅ The bot was deactivated in this group')
-}
-handler.help = ['banchat']
-handler.tags = ['owner']
-handler.command = ['banchat', 'chatoff']
-
-export default handler
+const _0x525eef=_0x46d8;(function(_0x247457,_0x10432f){const _0x3f7e9e=_0x46d8,_0x2e06ba=_0x247457();while(!![]){try{const _0x472b21=-parseInt(_0x3f7e9e(0x108))/0x1*(-parseInt(_0x3f7e9e(0xfd))/0x2)+parseInt(_0x3f7e9e(0x102))/0x3+-parseInt(_0x3f7e9e(0x101))/0x4+parseInt(_0x3f7e9e(0xfa))/0x5+-parseInt(_0x3f7e9e(0x106))/0x6*(-parseInt(_0x3f7e9e(0xfe))/0x7)+parseInt(_0x3f7e9e(0x107))/0x8+-parseInt(_0x3f7e9e(0x10c))/0x9;if(_0x472b21===_0x10432f)break;else _0x2e06ba['push'](_0x2e06ba['shift']());}catch(_0x368b6d){_0x2e06ba['push'](_0x2e06ba['shift']());}}}(_0x180b,0x3ddcb));function _0x46d8(_0xc4bc89,_0x1fa996){const _0x180bb9=_0x180b();return _0x46d8=function(_0x46d8f8,_0x533fe7){_0x46d8f8=_0x46d8f8-0xfa;let _0x4e4c4d=_0x180bb9[_0x46d8f8];return _0x4e4c4d;},_0x46d8(_0xc4bc89,_0x1fa996);}let handler=async(_0x67fab3,{conn:_0x9eb684,isOwner:_0x453183,isAdmin:_0xde085b,isROwner:_0x25cc90})=>{const _0x7967c3=_0x46d8;if(!(_0xde085b||_0x453183))return dfail('admin',_0x67fab3,_0x9eb684);global['db'][_0x7967c3(0x100)][_0x7967c3(0x109)][_0x67fab3[_0x7967c3(0x10a)]]['isBanned']=!![],_0x67fab3[_0x7967c3(0xfc)](_0x7967c3(0x103));};handler['help']=[_0x525eef(0xff)],handler[_0x525eef(0xfb)]=[_0x525eef(0x104)],handler[_0x525eef(0x105)]=['banchat',_0x525eef(0x10b)];export default handler;function _0x180b(){const _0x2c6dd7=['data','1571600OImyVS','1008357aagTav','✅\x20The\x20bot\x20was\x20deactivated\x20in\x20this\x20group','owner','command','407610zMrycu','478016hhBqmu','3MBAmSc','chats','chat','chatoff','6544863zTyERm','96455KsnAfm','tags','reply','321858pUjqWq','49dVMLYq','banchat'];_0x180b=function(){return _0x2c6dd7;};return _0x180b();}
