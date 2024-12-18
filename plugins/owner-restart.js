@@ -1,16 +1,1 @@
-import { spawn } from 'child_process'
-let handler = async (m, { conn, isROwner, text }) => {
-  if (!process.send) throw 'Dont: node main.js\nDo: node index.js'
-  if (conn.user.jid == conn.user.jid) {
-    await m.reply('🔄 Restarting Bot...\n Wait a moment \nAM COMING BACK')
-    process.send('reset')
-  } else throw 'eh'
-}
-
-handler.help = ['restart']
-handler.tags = ['owner']
-handler.command = ['restart']
-
-handler.rowner = true
-
-export default handler
+function _0x737c(_0x29febc,_0x2ed88c){const _0xf55fab=_0xf55f();return _0x737c=function(_0x737cb6,_0x28aeff){_0x737cb6=_0x737cb6-0x199;let _0x442ea9=_0xf55fab[_0x737cb6];return _0x442ea9;},_0x737c(_0x29febc,_0x2ed88c);}function _0xf55f(){const _0x55b9ba=['tags','5371532MkYbDu','reset','🔄\x20Restarting\x20Bot...\x0a\x20Wait\x20a\x20moment\x20\x0aAM\x20COMING\x20BACK','jid','253fFixnp','user','reply','1965966NRwuvh','3065TKecCP','871270GRdroB','10398uuuSDJ','14ZQWXqs','269320wJjCYF','11084346KTaaFb','236035FhLimj','63LpCRre','send'];_0xf55f=function(){return _0x55b9ba;};return _0xf55f();}const _0x18602f=_0x737c;(function(_0x12ede5,_0x20f19f){const _0x43ebd4=_0x737c,_0x586ea6=_0x12ede5();while(!![]){try{const _0x558bab=parseInt(_0x43ebd4(0x1a6))/0x1*(-parseInt(_0x43ebd4(0x1a3))/0x2)+-parseInt(_0x43ebd4(0x19f))/0x3+-parseInt(_0x43ebd4(0x1aa))/0x4+-parseInt(_0x43ebd4(0x1a0))/0x5*(-parseInt(_0x43ebd4(0x1a2))/0x6)+-parseInt(_0x43ebd4(0x1a7))/0x7*(-parseInt(_0x43ebd4(0x1a4))/0x8)+parseInt(_0x43ebd4(0x1a5))/0x9+parseInt(_0x43ebd4(0x1a1))/0xa*(parseInt(_0x43ebd4(0x19c))/0xb);if(_0x558bab===_0x20f19f)break;else _0x586ea6['push'](_0x586ea6['shift']());}catch(_0x3a6126){_0x586ea6['push'](_0x586ea6['shift']());}}}(_0xf55f,0xe806b));import{spawn}from'child_process';let handler=async(_0x42aade,{conn:_0x39b979,isROwner:_0x54b05e,text:_0x41ea20})=>{const _0x5eca44=_0x737c;if(!process[_0x5eca44(0x1a8)])throw'Dont:\x20node\x20main.js\x0aDo:\x20node\x20index.js';if(_0x39b979[_0x5eca44(0x19d)]['jid']==_0x39b979[_0x5eca44(0x19d)][_0x5eca44(0x19b)])await _0x42aade[_0x5eca44(0x19e)](_0x5eca44(0x19a)),process[_0x5eca44(0x1a8)](_0x5eca44(0x199));else throw'eh';};handler['help']=['restart'],handler[_0x18602f(0x1a9)]=['owner'],handler['command']=['restart'],handler['rowner']=!![];export default handler;
