@@ -1,17 +1,1 @@
-let handler = async (m, { conn, args, usedPrefix, command }) => {
-  let who
-  if (m.isGroup) who = args[1] ? args[1] : m.chat
-  else who = args[1]
-
-  if (new Date() * 1 < global.db.data.chats[who].expired) global.db.data.chats[who].expired = false
-  else global.db.data.chats[who].expired = false
-
-  m.reply(`✅ Removed expiration days for this group`)
-}
-handler.help = ['delexpired']
-handler.tags = ['owner']
-handler.command = /^(delexpired)$/i
-handler.rowner = true
-handler.group = true
-
-export default handler
+const _0x3371db=_0xf7ad;(function(_0xc89b40,_0x15ed6f){const _0x63e3f4=_0xf7ad,_0x2c83ae=_0xc89b40();while(!![]){try{const _0xc9e9e=-parseInt(_0x63e3f4(0x137))/0x1+parseInt(_0x63e3f4(0x130))/0x2+-parseInt(_0x63e3f4(0x138))/0x3*(parseInt(_0x63e3f4(0x13a))/0x4)+parseInt(_0x63e3f4(0x143))/0x5*(-parseInt(_0x63e3f4(0x142))/0x6)+-parseInt(_0x63e3f4(0x133))/0x7*(parseInt(_0x63e3f4(0x139))/0x8)+parseInt(_0x63e3f4(0x13e))/0x9+parseInt(_0x63e3f4(0x12e))/0xa;if(_0xc9e9e===_0x15ed6f)break;else _0x2c83ae['push'](_0x2c83ae['shift']());}catch(_0x5708d7){_0x2c83ae['push'](_0x2c83ae['shift']());}}}(_0x1150,0x6d2ad));let handler=async(_0x2390ba,{conn:_0x512037,args:_0x30e337,usedPrefix:_0x2bb06,command:_0x4e4f07})=>{const _0xd9d813=_0xf7ad;let _0x7915c6;if(_0x2390ba[_0xd9d813(0x140)])_0x7915c6=_0x30e337[0x1]?_0x30e337[0x1]:_0x2390ba[_0xd9d813(0x13d)];else _0x7915c6=_0x30e337[0x1];if(new Date()*0x1<global['db']['data'][_0xd9d813(0x13b)][_0x7915c6][_0xd9d813(0x134)])global['db'][_0xd9d813(0x141)][_0xd9d813(0x13b)][_0x7915c6]['expired']=![];else global['db']['data']['chats'][_0x7915c6][_0xd9d813(0x134)]=![];_0x2390ba[_0xd9d813(0x13c)](_0xd9d813(0x136));};handler[_0x3371db(0x131)]=['delexpired'],handler[_0x3371db(0x132)]=[_0x3371db(0x12d)],handler[_0x3371db(0x13f)]=/^(delexpired)$/i,handler[_0x3371db(0x135)]=!![],handler[_0x3371db(0x12f)]=!![];function _0x1150(){const _0xd3174f=['853518FaVmxO','5OboFqz','owner','13025690fsDYcD','group','745990ZdvpTR','help','tags','71169RIEjcJ','expired','rowner','✅\x20Removed\x20expiration\x20days\x20for\x20this\x20group','112574duwbhQ','4101LTKmwv','248bxxpal','2428XdgfJc','chats','reply','chat','1542222SPhEvC','command','isGroup','data'];_0x1150=function(){return _0xd3174f;};return _0x1150();}function _0xf7ad(_0x2458d8,_0x344813){const _0x1150a1=_0x1150();return _0xf7ad=function(_0xf7adc8,_0x1ed878){_0xf7adc8=_0xf7adc8-0x12d;let _0x3921ad=_0x1150a1[_0xf7adc8];return _0x3921ad;},_0xf7ad(_0x2458d8,_0x344813);}export default handler;
