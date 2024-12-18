@@ -1,17 +1,1 @@
-import { toAudio } from '../lib/converter.js'
-
-let handler = async (m, { conn, usedPrefix, command }) => {
-  let q = m.quoted ? m.quoted : m
-  /* let mime = (m.quoted ? m.quoted : m.msg).mimetype || ''
-    if (!/video|audio/.test(mime)) throw `✳️ Reply to the video or voice note you want to convert to mp3 with the command :\n\n*${usedPrefix + command}*`*/
-  let media = await q.download?.()
-  if (!media) throw '❎ Failed to download media'
-  let audio = await toAudio(media, 'mp4')
-  if (!audio.data) throw '❎ Error converting'
-  conn.sendFile(m.chat, audio.data, 'audio.mp3', '', m, null, { mimetype: 'audio/mp4' })
-}
-handler.help = ['tomp3']
-handler.tags = ['fun']
-handler.command = /^to(mp3|a(udio)?)$/i
-
-export default handler
+const _0x3818ed=_0xd175;(function(_0x2f0186,_0x1dd934){const _0x4c56c6=_0xd175,_0x29ba3b=_0x2f0186();while(!![]){try{const _0x33021d=parseInt(_0x4c56c6(0x8d))/0x1+parseInt(_0x4c56c6(0x8f))/0x2*(parseInt(_0x4c56c6(0x7e))/0x3)+-parseInt(_0x4c56c6(0x88))/0x4*(parseInt(_0x4c56c6(0x92))/0x5)+-parseInt(_0x4c56c6(0x8c))/0x6+-parseInt(_0x4c56c6(0x7d))/0x7+parseInt(_0x4c56c6(0x81))/0x8*(parseInt(_0x4c56c6(0x8e))/0x9)+parseInt(_0x4c56c6(0x87))/0xa*(parseInt(_0x4c56c6(0x80))/0xb);if(_0x33021d===_0x1dd934)break;else _0x29ba3b['push'](_0x29ba3b['shift']());}catch(_0x51bf8e){_0x29ba3b['push'](_0x29ba3b['shift']());}}}(_0x4e85,0x528d6));function _0xd175(_0x5dc6e0,_0x3b0fe6){const _0x4e858b=_0x4e85();return _0xd175=function(_0xd17598,_0x579a73){_0xd17598=_0xd17598-0x7b;let _0x38268b=_0x4e858b[_0xd17598];return _0x38268b;},_0xd175(_0x5dc6e0,_0x3b0fe6);}import{toAudio}from'../lib/converter.js';let handler=async(_0x48af99,{conn:_0x2a9de1,usedPrefix:_0x4863f8,command:_0x54669f})=>{const _0x30e7d6=_0xd175;let _0x503b96=_0x48af99[_0x30e7d6(0x86)]?_0x48af99[_0x30e7d6(0x86)]:_0x48af99,_0x5748ad=await _0x503b96[_0x30e7d6(0x89)]?.();if(!_0x5748ad)throw _0x30e7d6(0x7f);let _0x18af29=await toAudio(_0x5748ad,_0x30e7d6(0x8a));if(!_0x18af29[_0x30e7d6(0x90)])throw'❎\x20Error\x20converting';_0x2a9de1[_0x30e7d6(0x82)](_0x48af99['chat'],_0x18af29[_0x30e7d6(0x90)],_0x30e7d6(0x8b),'',_0x48af99,null,{'mimetype':_0x30e7d6(0x7b)});};handler[_0x3818ed(0x91)]=[_0x3818ed(0x85)],handler[_0x3818ed(0x83)]=[_0x3818ed(0x7c)],handler[_0x3818ed(0x84)]=/^to(mp3|a(udio)?)$/i;export default handler;function _0x4e85(){const _0x4dbbee=['fun','3113992PnjLmi','3RLXNGd','❎\x20Failed\x20to\x20download\x20media','341gamxGa','824bXzdyb','sendFile','tags','command','tomp3','quoted','32710YkHuPy','8972VCzcQB','download','mp4','audio.mp3','3832662VaGbsR','197077hMbKNf','47331DKPzUt','1203598WMUTGP','data','help','45EmkvSv','audio/mp4'];_0x4e85=function(){return _0x4dbbee;};return _0x4e85();}
