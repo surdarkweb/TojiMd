@@ -1,18 +1,1 @@
-//import db from '../lib/database.js'
-
-let handler = async (m, { text }) => {
-  let hash = text
-  if (m.quoted && m.quoted.fileSha256) hash = m.quoted.fileSha256.toString('hex')
-  if (!hash) throw `✳️ Enter the command name`
-  let sticker = global.db.data.sticker
-  if (sticker[hash] && sticker[hash].locked) throw `✳️ You can not delete this command`
-  delete sticker[hash]
-  m.reply(`✅ Command eliminated`)
-}
-
-handler.help = ['cmd'].map(v => 'del' + v + ' <text>')
-handler.tags = ['cmd']
-handler.command = ['delcmd']
-handler.owner = true
-
-export default handler
+const _0xa82a8=_0x4182;(function(_0xcf91a0,_0x8022dc){const _0x5f086c=_0x4182,_0xa55b29=_0xcf91a0();while(!![]){try{const _0x472bd5=-parseInt(_0x5f086c(0x81))/0x1+-parseInt(_0x5f086c(0x7a))/0x2*(parseInt(_0x5f086c(0x7d))/0x3)+-parseInt(_0x5f086c(0x70))/0x4+-parseInt(_0x5f086c(0x84))/0x5+-parseInt(_0x5f086c(0x71))/0x6+-parseInt(_0x5f086c(0x7f))/0x7+parseInt(_0x5f086c(0x85))/0x8*(parseInt(_0x5f086c(0x77))/0x9);if(_0x472bd5===_0x8022dc)break;else _0xa55b29['push'](_0xa55b29['shift']());}catch(_0x3a77e3){_0xa55b29['push'](_0xa55b29['shift']());}}}(_0xd875,0xb40ab));function _0xd875(){const _0x120ff8=['hex','cmd','21025665VkQixG','fileSha256','delcmd','9710cTQNWJ','toString','✅\x20Command\x20eliminated','39IcuKem','data','1842967mNWPFs','tags','1090335sigjkm','\x20<text>','help','116410MmvzjB','16DVZnBY','command','map','4606220VvlPYx','8060106GdpYst','quoted','owner','sticker'];_0xd875=function(){return _0x120ff8;};return _0xd875();}let handler=async(_0x5818a0,{text:_0x429e70})=>{const _0x2d326d=_0x4182;let _0x48ec11=_0x429e70;if(_0x5818a0[_0x2d326d(0x72)]&&_0x5818a0[_0x2d326d(0x72)][_0x2d326d(0x78)])_0x48ec11=_0x5818a0['quoted'][_0x2d326d(0x78)][_0x2d326d(0x7b)](_0x2d326d(0x75));if(!_0x48ec11)throw'✳️\x20Enter\x20the\x20command\x20name';let _0x3102f7=global['db'][_0x2d326d(0x7e)][_0x2d326d(0x74)];if(_0x3102f7[_0x48ec11]&&_0x3102f7[_0x48ec11]['locked'])throw'✳️\x20You\x20can\x20not\x20delete\x20this\x20command';delete _0x3102f7[_0x48ec11],_0x5818a0['reply'](_0x2d326d(0x7c));};function _0x4182(_0xc023b6,_0x503581){const _0xd87525=_0xd875();return _0x4182=function(_0x41828b,_0x1bc898){_0x41828b=_0x41828b-0x70;let _0x595976=_0xd87525[_0x41828b];return _0x595976;},_0x4182(_0xc023b6,_0x503581);}handler[_0xa82a8(0x83)]=['cmd'][_0xa82a8(0x87)](_0x24628d=>'del'+_0x24628d+_0xa82a8(0x82)),handler[_0xa82a8(0x80)]=[_0xa82a8(0x76)],handler[_0xa82a8(0x86)]=[_0xa82a8(0x79)],handler[_0xa82a8(0x73)]=!![];export default handler;
