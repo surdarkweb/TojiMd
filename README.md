@@ -19,8 +19,15 @@
 1. Fork the repo
     <br>
 <a href='https://github.com/Johanlieb34/TojiMd/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
-2. Get session id by Pairing Code
+2. Get session id by Pairing Code remember to put creds on session folder
     <br>
 <a href='https://silva-creds.onrender.com/pair' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+#### DEPLOY TO PANEL
+
+1. JUST SIGN IN WITH DISCORD .
+    <br>
+<a href='https://dashboard.katabump.com/auth/login#c0a726' target="_blank"><img alt='Render' src='https://img.shields.io/badge/DEPLOY-h?color=black&style=for-the-badge&logo=render' width="96.35" height="28"/></a></p>
+## 🍼 `BOT OWNER` 
+<a href="https://github.com/Johanlieb34"><img src="https://github.com/Johanlieb34.png" width="250" height="250" alt="Salman Ahmad"/></a>
