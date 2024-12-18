@@ -1,17 +1,1 @@
-let handler = async (m, { conn }) => {
-  global.prefix = new RegExp(
-    '^[' +
-      (opts['prefix'] || '‎xzXZ/i!#$%+£¢€¥^°=¶∆×÷π√✓©®:;?&.\\-').replace(
-        /[|\\{}()[\]^$+*?.\-\^]/g,
-        '\\$&'
-      ) +
-      ']'
-  )
-  await m.reply(`PREFIX RESET SUCCESS`)
-}
-handler.help = ['resetprefix']
-handler.tags = ['owner']
-handler.command = /^(resetprefix)$/i
-handler.owner = true
-
-export default handler
+const _0x158f6f=_0x3c53;function _0x172e(){const _0xd3a173=['1144444NZCwTb','prefix','help','1025820kXuzAD','‎xzXZ/i!#$%+£¢€¥^°=¶∆×÷π√✓©®:;?&.\x5c-','5zGvmNS','reply','1042965ShBcMS','resetprefix','owner','362608uhuHKe','tags','167467IVsWfJ','PREFIX\x20RESET\x20SUCCESS','5472752AGnvxQ','2461572pKQAoF'];_0x172e=function(){return _0xd3a173;};return _0x172e();}(function(_0x525e19,_0x49f60e){const _0x2d8ea5=_0x3c53,_0x362d69=_0x525e19();while(!![]){try{const _0x2c4546=-parseInt(_0x2d8ea5(0x1f5))/0x1+parseInt(_0x2d8ea5(0x1f3))/0x2+parseInt(_0x2d8ea5(0x1f0))/0x3+-parseInt(_0x2d8ea5(0x1ec))/0x4+-parseInt(_0x2d8ea5(0x1ee))/0x5*(parseInt(_0x2d8ea5(0x1f8))/0x6)+-parseInt(_0x2d8ea5(0x1f9))/0x7+parseInt(_0x2d8ea5(0x1f7))/0x8;if(_0x2c4546===_0x49f60e)break;else _0x362d69['push'](_0x362d69['shift']());}catch(_0x313418){_0x362d69['push'](_0x362d69['shift']());}}}(_0x172e,0x34951));function _0x3c53(_0x5efa2b,_0x320963){const _0x172ee8=_0x172e();return _0x3c53=function(_0x3c53f3,_0x216e6f){_0x3c53f3=_0x3c53f3-0x1ec;let _0x213cb1=_0x172ee8[_0x3c53f3];return _0x213cb1;},_0x3c53(_0x5efa2b,_0x320963);}let handler=async(_0x2d5ad1,{conn:_0x108888})=>{const _0x33252e=_0x3c53;global[_0x33252e(0x1fa)]=new RegExp('^['+(opts[_0x33252e(0x1fa)]||_0x33252e(0x1ed))['replace'](/[|\\{}()[\]^$+*?.\-\^]/g,'\x5c$&')+']'),await _0x2d5ad1[_0x33252e(0x1ef)](_0x33252e(0x1f6));};handler[_0x158f6f(0x1fb)]=[_0x158f6f(0x1f1)],handler[_0x158f6f(0x1f4)]=['owner'],handler['command']=/^(resetprefix)$/i,handler[_0x158f6f(0x1f2)]=!![];export default handler;
