@@ -1,3 +1,4 @@
 {
-	"name": "Cheems Bot Mlti Device "
+	"name": "Cheems Bot omoki Device "
 }
+
