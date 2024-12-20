@@ -1,5 +1,5 @@
 import express from 'express';
-import startBot from './Toji.js'; // Import the bot logic
+import startBot from './toji.js'; // Import the bot logic
 
 const app = express();
 const PORT = 3000; // Specify the port number
