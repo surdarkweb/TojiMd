@@ -2,7 +2,7 @@
     "name": "Toji MD",
     "version": "2.1.0",
     "description": "Advanced WhatsApp",
-    "main": "silva.js",
+    "main": "TOJI.js",
     "type": "module",
     "directories": {
         "lib": "lib",
@@ -13,7 +13,7 @@
         "node": ">=20.0.0"
     },
     "scripts": {
-        "start": "node index.js",
+        "start": "node toji.js",
         "test": "node infinity.js"
     },
     "keywords": [
