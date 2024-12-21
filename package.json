@@ -13,7 +13,7 @@
         "node": ">=20.0.0"
     },
     "scripts": {
-        "start": "node toji.js && node server.js",
+        "start": "node index.js",
         "test": "node infinity.js"
     },
     "keywords": [
