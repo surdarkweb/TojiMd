@@ -15,6 +15,12 @@
 | --------| --- | ----- | ------ | -------- | ----- | -- | ---- | --- | ----- | ----| --------| -----|
 | Work ➜ |  ✅ |   ✅  |    ✅  |     ✅   |   ✅  | ✅ |   ✅ |  ✅ |  ✅   | ✅  |    ✅   |  ✅  |
 
+
+## 🎬 Watch the Tutorial
+
+To set up the TOJI MD quickly, follow our detailed tutorial on YouTube:
+[![TOJI MD Bot YouTube Tutorial](https://img.shields.io/badge/YouTube-Watch%20Tutorial-red?style=for-the-badge&logo=youtube)](https://youtu.be/0ekn-zUWUnI?si=ew55oOk_MD-Ha7Cq)
+
 ## `INSTALATION` 
 1. Fork the repo
     <br>
