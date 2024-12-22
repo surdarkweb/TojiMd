@@ -25,7 +25,7 @@ To set up the TOJI MD quickly, follow our detailed tutorial on YouTube:
 1. Fork the repo
     <br>
 <a href='https://github.com/Johanlieb34/TojiMd/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
-2. Get session id by Pairing Code remember put session id on cfig.js
+2. Get session id by Pairing Code remember put session id on config.js
     <br>
 <a href='https://strange-lorette-dandadaneeeeeomomkk-67d17712.koyeb.app/' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
